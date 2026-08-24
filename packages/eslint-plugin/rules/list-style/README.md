@@ -286,15 +286,15 @@ You can also specify different options for various node types:
 
 - `ArrayExpression`: array expressions
 - `ArrayPattern`: array patterns of destructuring assignments
-- `ArrowFunctionExpression`: parameters of arrow function declarations
-- `CallExpression`: parameters of call expressions
+- `ArrowFunctionExpression`: parameters of arrow function expressions
+- `CallExpression`: arguments of call expressions
 - `ExportNamedDeclaration`: named exports
 - `FunctionDeclaration`: parameters of function declarations
 - `FunctionExpression`: parameters of function expressions
 - `IfStatement`: condition of if statements
 - `ImportDeclaration`: named imports
 - `ImportAttributes`: import attributes
-- `NewExpression`: parameters of new expressions
+- `NewExpression`: arguments of new expressions
 - `ObjectExpression`: object literals
 - `ObjectPattern`: object patterns of destructuring assignments
 - `TSDeclareFunction`: parameters of function type declarations
