@@ -297,8 +297,8 @@ You can also specify different options for various node types:
 - `NewExpression`: arguments of new expressions
 - `ObjectExpression`: object literals
 - `ObjectPattern`: object patterns of destructuring assignments
-- `TSDeclareFunction`: parameters of function type declarations
-- `TSFunctionType`: parameters of arrow function type declarations
+- `TSDeclareFunction`: parameters of ambient function declarations and overload signatures
+- `TSFunctionType`: parameters of TypeScript function types
 - `TSInterfaceBody`: interface declarations
 - `TSEnumBody`: enum declarations
 - `TSTupleType`: tuple types
