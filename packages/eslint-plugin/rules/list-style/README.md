@@ -206,7 +206,7 @@ Examples of **correct** code with the default `"ignore"` option:
 ::: correct
 
 ```ts
-/* eslint @stylistic/exp-list-style: ["error", { "empty": "ignore" }] */
+/* eslint @stylistic/list-style: ["error", { "empty": "ignore" }] */
 
 const array = [ ]
 const object = {}
@@ -220,7 +220,7 @@ Examples of **correct** code with the `"always"` option:
 ::: correct
 
 ```ts
-/* eslint @stylistic/exp-list-style: ["error", { "empty": "always" }] */
+/* eslint @stylistic/list-style: ["error", { "empty": "always" }] */
 
 const array = [ ]
 const object = { }
@@ -234,7 +234,7 @@ Examples of **incorrect** code with the `"never"` option and `multiLine.minItems
 ::: incorrect
 
 ```ts
-/* eslint @stylistic/exp-list-style: ["error", { "empty": "never", "multiLine": { "minItems": 1 } }] */
+/* eslint @stylistic/list-style: ["error", { "empty": "never", "multiLine": { "minItems": 1 } }] */
 
 const array = [ ]
 const object = {
@@ -249,7 +249,7 @@ Examples of **correct** code with the `"never"` option and `multiLine.minItems` 
 ::: correct
 
 ```ts
-/* eslint @stylistic/exp-list-style: ["error", { "empty": "never", "multiLine": { "minItems": 1 } }] */
+/* eslint @stylistic/list-style: ["error", { "empty": "never", "multiLine": { "minItems": 1 } }] */
 
 const array = []
 const object = {}
